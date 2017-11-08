@@ -3,4 +3,5 @@ let driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
   return newDriver = driver;
+  newDriver.key = value;
 }
